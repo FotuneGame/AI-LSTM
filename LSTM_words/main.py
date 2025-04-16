@@ -186,7 +186,7 @@ MAX_WORDS = 20000  # Максимальный размер словаря
 
 if __name__ == "__main__":
     # 1. Загрузка и предварительная обработка данных
-    words = load_and_preprocess_text("./learn_data.txt")
+    words = load_and_preprocess_text("../learn_data.txt")
     
     # 2. Создание словаря слов
     tokenizer, word_index, index_word = create_word_vocab(words, MAX_WORDS)
